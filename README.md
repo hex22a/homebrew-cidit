@@ -1,0 +1,1 @@
+This is a trird-part tap for [Homebrew](https://brew.sh/) providon formulae for [cidit](https://github.com/hex22a/cidit)
