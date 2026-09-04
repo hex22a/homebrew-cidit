@@ -1,25 +1,25 @@
 class Cidit < Formula
   desc "CIDR Inspection Tool"
   homepage "https://github.com/hex22a/cidit"
-  version "3.2.0"
+  version "3.2.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hex22a/cidit/releases/download/v3.2.0/cidit-v3.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b7a27aa53dd8a73e98c2969cad5bcd273629e3c2327933ee45b64b1d5aea8740"
+      url "https://github.com/hex22a/cidit/releases/download/v3.2.2/cidit-v3.2.2-aarch64-apple-darwin.tar.gz"
+      sha256 "41c0b8416647ad1f55af6cfaf974fed95a3eaa52a5a31aa5fe2dafe013803021"
     else
-      url "https://github.com/hex22a/cidit/releases/download/v3.2.0/cidit-v3.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "f9dac95881f7d75f0ce602fb39f5a41b725b525ce3813ea8af12ccc06fde3599"
+      url "https://github.com/hex22a/cidit/releases/download/v3.2.2/cidit-v3.2.2-x86_64-apple-darwin.tar.gz"
+      sha256 "4de6ab792bccaf06f6a6e25e43c0324829d26e7671e569255ecaa7feb853f060"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/hex22a/cidit/releases/download/v3.2.0/cidit-v3.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8271727e8c8e741ae9449c1ab87444858784e43a81f702429834187c427f28e0"
+      url "https://github.com/hex22a/cidit/releases/download/v3.2.2/cidit-v3.2.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a7cbdb7785b831097d29a570ed98669fa75e90718af33c6aeeb270a6351830c2"
     else
-      url "https://github.com/hex22a/cidit/releases/download/v3.2.0/cidit-v3.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "46ef348f29365ecfb0f22f4e747e4a095111ed7a153f6244504d9901a9547496"
+      url "https://github.com/hex22a/cidit/releases/download/v3.2.2/cidit-v3.2.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f922ef11798cb9803047aaa1f30e0c29a83dc4d42b31ac9e0df9dbcd53719d8f"
     end
   end
 
